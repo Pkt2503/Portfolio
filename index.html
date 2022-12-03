@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href=" phone.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Pavan..png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <i class="fa-solid fa-times"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer & Android developer</p>
+                <h1>Hi, I'm Pavan <span>Thakur</span><br> From India</h1>
+                <button class="btn btn2">Hire Me</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-colum-1">
+                    <img src="/image/InShot_20221204_001830301 (5).jpg">
+                </div>
+                <div class="about-colum-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> My name is Pavan Kumar Thakur and I am an engineering student.I am currently studying in
+                        Bhagalpur college of engineering (Bhagalpur) from Aryabhatt knowledge university patna.I am
+                        interested in web developing and android developing and hope to pursue a career in this field.I
+                        am always willing to learn new things and am eager to face challenges.I'm excited to start my
+                        career and can't wait to see what future holds for me.I'm confident that I have what it takes to
+                        be a successful engineer.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desining Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>app Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Professionalism</span><br>Teaching experience of 4+ years</li>
+                            <li><span>Group Project</span><br>Robot</li>
+                            <li><span>Leadership</span><br>Resources Planning</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015</span><br>Matriculation</li>
+                            <li><span>2018</span><br>Intermediate</li>
+                            <li><span>2019-2023</span><br>B.Tech From Bhagalpur College of Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------------SERVICES----------------------------------------------             -->
+            <div id="Services">
+                <div class="container">
+                    <h1 class="sub-title">Services</h1>
+                    <div class="service-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>Web design refers to the design of website that are displayed on the internet.It is used to create and code internet sites and web pages,many of which combinrs text with sounds,picture,graphics and video clips</p>
+                            <a href="https://en.wikipedia.org/wiki/Web_design">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop"></i>
+                            <h2>UI/UX</h2>
+                            <p>User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.</p>
+                            <a href="https://en.wikipedia.org/wiki/User_interface_design">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store-ios"></i>
+                            <h2>App Design</h2>
+                            <p>App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.</p>
+                            <a href="https://xd.adobe.com/ideas/principles/app-design/#:~:text=What%20Is%20App%20Design%3F,the%20actual%20functionality%20and%20usability.">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------portfolio---------------------------->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image/work-1.jpg">
+                            <div class="layer">
+                                <h3>Food Delivery App</h3>
+                                <p>Food delivery is a home delivery service in which a store, restaurant, or third-party app delivers food to consumers, whenever they ask for it. These days, the offers are generally placed through a mobile app, website, or phone.</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/work-2.jpg">
+                            <div class="layer">
+                                <h3>Portfolio Website</h3>
+                                <p> A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/work-3.jpg">
+                            <div class="layer">
+                                <h3>Shopping App</h3>
+                                <p>A mobile shopping app is an application that allows customers to browse and buy products or services from a retailer or service provider. Shopping apps can significantly impact businesses as mobile traffic continues to grow at an alarming rate.</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+            <!-- ---------------------contact us---------------------------------------- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact me</h1>
+                            <p><i class="fa-solid fa-envelope"></i>pavankumarthakur253@gmail.com</p>
+                            <p><i class="fa-sharp fa-solid fa-square-phone"></i>8825213180</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/pavankumar.thakur.395"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/pavan_kr_thakur/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/pavan-kumar-thakur-240821203/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/PavanKrThakur"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <a href="image/CV_2022072815163835-compressed.pdf" Download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your name" required>
+                                <input type="email" name="Email" placeholder="Your email" required>
+                                <textarea name="Message" rows="10" placeholder="Your message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>copyright 2022 @ Pavan.Made by <i class="fa-solid fa-heart"></i> Pavan Thakur</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- --------------------------------------------------------------------------------->
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link")
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab")
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+
+<script>
+var sidebar  =document.getElementById("sidemenu");
+function openmenu(){
+    sidebar.style.right="0";
+}
+function closemenu(){
+    sidebar.style.right="-200px";
+}
+
+
+
+
+</script>
+
+
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzceX5vvcpYoHTuW8Gq_U0vkGEVqOPSJJiFJ_waBnqukGzyjOdVGIvF94ZrS5K5qWhf-A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){msg.innerHTML=""},5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- -------------------------------------------------------------------------------------------- -->
+</body>
+
+</html>
